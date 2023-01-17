@@ -1,0 +1,23 @@
+$blue-color: #00007C;
+
+.primary-btn{
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: $blue-color;
+    padding: 12px 0;
+    border-radius: 3px;
+    &:hover {
+        cursor: pointer;
+    }
+
+    span {
+        color: #fff;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        // line-height: 100%;
+    }
+}

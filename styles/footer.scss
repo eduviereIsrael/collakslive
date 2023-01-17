@@ -1,0 +1,101 @@
+$blue-color: #00007C;
+
+.footer {
+    background-color: $blue-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100vw;
+
+    .footer-intro {
+        padding: 70px 0;
+        .footer-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .f-text {
+                font-size: 48px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: 400;
+                color: #fff;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+
+            .primary-btn{
+                background-color: #fff;
+                span {
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    .footer-cont{
+        background-color: #fff;
+        padding: 50px 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-radius: 15px;
+
+        .footer-logo{
+            width: 200px;
+            align-self: flex-start;
+        }
+
+        .footer-menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 5vw;
+            margin-top: 70px;
+            width: 100%;
+            flex-wrap: wrap;
+
+            .f-links {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                // background-color: red;
+                min-width: 40%;
+
+                p {
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+
+            .footer-menu {
+                flex-direction: row;
+                width: 60%;
+                align-items: flex-start;
+                flex-wrap: nowrap;
+                justify-content: flex-end;
+                // overflow: hidden;
+                margin-top: unset;
+
+                .f-links {
+                    align-items: flex-start;
+                    min-width: unset;
+                }
+            }
+        }
+    }
+
+   
+
+}
+
