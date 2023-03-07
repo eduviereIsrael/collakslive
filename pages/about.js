@@ -19,11 +19,11 @@ const About = () => {
           <div className='mission-vision'>
             <div className='mission'>
               <h3>Our Mission</h3>
-              <p>Collaks prosthetics and orthotics is a medical rehabilitation clinic dedicated to improving lives of persons living with disability form upper body amputees to lower body amputees also in fabrication of supportive devices/braces for patients with neuromuscular and muscuskeletal conditions. Collaks Prosthetics started off 5 years ago with orthotics and later launched it&apos;s prosthetic section fully in 2018.</p>
+              <p>To be the lead supportive agency for persons living with health challenges and disabilities in Africa. And a leading advocate for the rights of everyone living with disabilities.</p>
             </div>
             <div className='vision'>
             <h3>Our Vision</h3>
-              <p>Collaks prosthetics and orthotics is a medical rehabilitation clinic dedicated to improving lives of persons living with disability form upper body amputees to lower body amputees also in fabrication of supportive devices/braces for patients with neuromuscular and muscuskeletal conditions.</p>
+              <p>Our vision is to be the number one and most reliable Prosthetic and Orthotics clinic, dedicated to providing quality and affordable rehabilitation treatments to persons living with disabilities and health challenges.</p>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ const About = () => {
             <div className="img-card">
               <img src="/sir-Gideon.png" />
               <h4>Gideon Oladele</h4>
-              <p>prosthetist</p>
+              <p>Prosthetist and Orthotist</p>
             </div>
           </div>
         </div>
